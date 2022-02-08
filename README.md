@@ -5,12 +5,12 @@
 
 ### Resources used to Complete the Analysis
 * **CSV Files:** 
-[Weather_Database.csv](https://github.com/dannybarto/World_Weather_Analysis/tree/main/Weather_Database/WeatherPy_Database.csv), 
-[WeatherPy_vacation.csv]( https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/Vacation_Search/WeatherPy_vacation.csv)
+[Weather_Database.csv](hhttps://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/Weather_Database/WeatherPy_Database.csv, 
+[WeatherPy_vacation.csv]( https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/Vacation_Search/WeatherPy_vacation.csv)
 * **Jupyter Notebook Files:**: 
-[Weather_Database.ipynb](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/Weather_Database/Weather_Database.ipynb), 
-[Vacation_Search.ipynb](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/Vacation_Search/Vacation_Search.ipynb),
-[Vacation_Itinerary.ipynb]( https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/Vacation_Itinerary/Vacation_Itinerary.ipynb)
+[Weather_Database.ipynb](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/Weather_Database/Weather_Database.ipynb), 
+[Vacation_Search.ipynb](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/Vacation_Search/Vacation_Search.ipynb),
+[Vacation_Itinerary.ipynb]( https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/Vacation_Itinerary/Vacation_Itinerary.ipynb)
 
 * **Python**: Python v3.7.11, Dependencies: Pandas, Matplotlib, CitiPy, SciPy, Python Requests, APIs, JSON Traversals
 
@@ -30,12 +30,12 @@ Based on a prospective vacationer's weather preferences, the are able to identif
 
 ### Sample Travel Destinations
 
-![WeatherPy_vacation_map](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/Vacation_Search/WeatherPy_vacation_map.png
+![WeatherPy_vacation_map](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/Vacation_Search/WeatherPy_vacation_map.png)
 
 ## Vacation Itinerary 
 Using the Google Directions API, a demo itinerary was put together that shows the route between four cities in the United States of America.
 
-![WeatherPy_travel_map](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/Vacation_Itinerary/Weather_Py_Travel_Map.png)
+![WeatherPy_travel_map](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/Vacation_Itinerary/Weather_Py_Travel_Map.png)
 
 ## Statistical Analysis
 Data for global cities was plotted, and then linear regression was utilized to find the relationship between the following variables: 
@@ -48,26 +48,26 @@ Data for global cities was plotted, and then linear regression was utilized to f
 ### Scatter Plots 
 Scatter plots were generated for each weather parameter based on  the latitude for all cities to show how weather parameters change based on latitude. 
 
-![City Latitude vs. Max Temperature](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/weather_data/LatVsMT.png)
-![City Latitude vs. Max Humidity](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/weather_data/LatVsHum.png)
-![City Latitude vs. Cloudiness](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/weather_data/LatVsCloud.png)
-![ City Latitude vs. Wind Speed](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/weather_data/LatVsWS.png)
+![City Latitude vs. Max Temperature](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/weather_data/LatVsMT.png)
+![City Latitude vs. Max Humidity](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/weather_data/LatVsHum.png)
+![City Latitude vs. Cloudiness](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/weather_data/LatVsCloud.png)
+![ City Latitude vs. Wind Speed](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/weather_data/LatVsWS.png)
 
 ### Linear Regression on the Northern and Southern Hemispheres
 Applied linear regression to the Northern and Southern Hemispheres, on the following weather parameters: maximum temperature, humidity, cloudiness, and wind speed.
 
 #### Maximum Temperature
-![Linear Regression on the Northern Hemisphere for Maximum Temperature]https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/weather_data/LinRegNorHemMT.png
-![Linear Regression on the Southern Hemisphere for Maximum Temperature](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/weather_data/LinRegSouHemMT.png)
+![Linear Regression on the Northern Hemisphere for Maximum Temperature](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/weather_data/LinRegNorHemMT.png)
+![Linear Regression on the Southern Hemisphere for Maximum Temperature](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/weather_data/LinRegSouHemMT.png)
 
 #### Percent Humidity
-![Linear Regression on the Northern Hemisphere for Percent Humidity](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/weather_data/LinRegNorHemH.png)
-![Linear Regression on the Southern Hemisphere for Percent Humdity](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/weather_data/LinRegSouHemH.png)
+![Linear Regression on the Northern Hemisphere for Percent Humidity](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/weather_data/LinRegNorHemH.png)
+![Linear Regression on the Southern Hemisphere for Percent Humdity](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/weather_data/LinRegSouHemH.png)
 
 #### Percent Cloudiness
-![Linear Regression on the Northern Hemisphere for Percent Cloudiness](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/weather_data/LinRegNorHemC.png)
-![Linear Regression on the Southern Hemisphere for Percent Cloudiness](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/weather_data/LinRegSouHemC.png)
+![Linear Regression on the Northern Hemisphere for Percent Cloudiness](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/weather_data/LinRegNorHemC.png)
+![Linear Regression on the Southern Hemisphere for Percent Cloudiness](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/weather_data/LinRegSouHemC.png)
 
 #### Wind Speed
-![ Linear Regression on the Northern Hemisphere for Wind Speed](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/weather_data/LinRegNorHemWS.png)
-![ Linear Regression on the Southern Hemisphere for Wind Speed](https://github.com/dannybarto/World_Weather_Analysis/blob/cae34ce3f9a07e8ba894973f89c2ea71c07c139e/weather_data/LinRegSouHemWS.png)
+![ Linear Regression on the Northern Hemisphere for Wind Speed](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/weather_data/LinRegNorHemWS.png)
+![ Linear Regression on the Southern Hemisphere for Wind Speed](https://github.com/dannybarto/World_Weather_Analysis/blob/3c297920a5aa95a7f5ec2b899aa0fa38b1d8ed86/weather_data/LinRegSouHemWS.png)
